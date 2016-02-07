@@ -1,0 +1,41 @@
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.right {
+    float: right;
+}
+
+nav{
+    height: 106px;
+    line-height: 106px;
+    vertical-align: middle;
+    font-family:"Source Sans Pro";
+    font-weight: bold;
+    font-size: 18px;
+    color: #f7f7f7;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 14px;
+    background-color: #acd373;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header{
+    height: 700px;
+    vertical-align: middle;
+    font-family:"Source Sans Pro";
+    font-weight: bold;
+    font-size: 18px;
+    color: #f7f7f7;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 14px;
+    background-color: #acd373;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
