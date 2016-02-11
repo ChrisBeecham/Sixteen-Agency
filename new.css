@@ -8,34 +8,581 @@
 }
 
 nav{
+    background-color: #acd373;
     height: 106px;
     line-height: 106px;
-    vertical-align: middle;
-    font-family:"Source Sans Pro";
-    font-weight: bold;
-    font-size: 18px;
-    color: #f7f7f7;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 0 14px;
-    background-color: #acd373;
     box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
+    nav img{
+        vertical-align: middle;
+    }
+
+    nav a{
+        font-family:"Source Sans Pro";
+        font-weight: bold;
+        font-size: 18px;
+        color: #f7f7f7;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 0 14px;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
 
 header{
     height: 700px;
-    vertical-align: middle;
-    font-family:"Source Sans Pro";
+    text-align: center;
+    background-color: #9abd67;
+    background-image: url("photos/skyline.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+    header h1{
+        font-family: "Source Sans Pro";
+        font-size: 48px;
+        font-weight: bold;
+        font-style: ;
+        color: #f7f7f7;
+        margin-top: ;
+        padding-top: 230px;
+    }
+
+    header h2{
+        font-family: "Droid Serif";
+        font-size: 24px;
+        font-weight: ;
+        font-style: italic;
+        color: #f7f7f7;
+        margin-top: 30px;
+        padding-top: ;  
+    }
+
+    header a{
+        display: block;
+        margin-top: 132px;
+    }
+
+.who{
+    text-align: left;
+    background-color: #f7f7f7;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    color: #454545;
+    padding: 90px 0;
+}
+
+    .who h2{
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+
+    .who h2 img{
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+
+    .who a{
+        display: inline-block;
+        border: 1px solid #acd373;
+        color: #acd373;
+        font-family: "Droid Serif";
+        font-style: italic;
+        text-decoration: none;
+        margin-top: 45px;
+        padding: 10px 20px;
+    }
+
+    .who .container div{
+        display: inline-block;
+        width: 769px;
+    }
+
+.video{
+    display: ;
+    height: 523px;
+    line-height: 523px;
+    background-image: url(photos/people%20happy.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+}
+
+    .video img{
+        vertical-align: middle;
+    }
+
+.services{
+    display: ;
+    background-color: #f7f7f7;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-weight: ;
+    font-style: ;
+    text-align: center;
+    color: #454545;
+}
+
+    .services h2{
+        font-size: 30px;
+        font-family: 
+    }
+
+    .services h2 span{
+        color: #acd373;
+        font-weight: bold;
+    }
+
+    .services p{
+        font-family: "Droid Serif";
+    }
+
+    .services a{
+            display: inline-block;
+            border: 1px solid #acd373;
+            color: #acd373;
+            font-family: "Droid Serif";
+            font-style: italic;
+            text-decoration: none;
+            margin-top: 45px;
+            padding: 10px 20px;
+    }
+
+    .servicesList{
+        display: inline-block;
+        text-align: left;
+    }
+
+    .servicesList li{
+        display: inline-block;
+        width: 365px;
+    }
+
+    .servicesListItem {
+        display: inline-block;
+        width: 250px;
+    }
+
+    .servicesListItem h4{
+        font-weight: bold;
+        color: #acd373;
+    }
+
+.team{
+    display: ;
+    height: ;
+    background-color: #acd373;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+    .team h2{
+        font-family: "Source Sans Pro";
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #f7f7f7;
+    }
+
+    .team p{
+        font-family: "Droid Serif";
+        font-size: 18px;
+        color: #f7f7f7;
+        font-weight: ;
+        font-style: italic;
+    }
+
+    .team img{}
+    /*
+    sdafasdfasdfsd
+    */
+
+    .team li{
+        position: relative;
+        display: inline-block;
+        width: 250px;
+        height: 247px;
+        background-color: #f7f7f7;
+        border-radius: 3px;
+        margin: 70px 15px 0 15px;
+        text-align: center;
+    }
+
+    .team li > img{
+        margin-top: -70px;
+    }
+
+    .team li h3 {
+        font-family: "Source Sans Pro";
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 20px;
+        color: #acd373;
+        margin-top: 15px;
+    }
+
+    .team li p {
+        font-family: "DroidSerif";
+        font-style: italic;
+        font-size: 16px;
+        color: #787878;
+        margin-top: 9px;
+    }
+
+    .socialMediaIcons {
+        position: absolute;
+        bottom: 0;
+        background: #ebebeb;
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+
+    .socialMediaIcons img {
+        vertical-align: middle;
+        margin: 0 4px;
+    }
+
+.hiring{
+    display:;
+    background-color: #9abd67;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+}
+
+    .hiring p{
+        font-family: "Source Sans Pro";
+        font-size: 18px;
+        color: #ebebeb;
+    }
+
+    .hiring a{
+        border: 1px solid #ebebeb;
+        color: #ebebeb;
+        font-family: "Droid Serif";
+        font-style: italic;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin-left: 50px;
+    }
+
+.works{
+    display: ;
+    background-color: #f7f7f7;
+    height: ;
+    text-align: center;
+}
+
+.works h2{
+    font-family: "Source Sans Pro";
+    text-transform: uppercase;
+    font-weight: ;
+    font-size: 30px;
+    color: #454545;
+    margin-top: ;
+}
+
+.works h2 span{
+    color: #acd373;
+}
+
+.works p{
+    font-family: "Droid Serif";
+    font-size: 18px;
+    color: #454545;
+    margin: 5px 0;
+}
+
+.works img{ /* line break */
+    margin: 5px 0;
+}
+
+.works li{
+    display: inline-block;
+    background-color: #ebebeb;
+    margin: 5px;
+}
+
+.works li:nth-of-type(1),
+.works li:nth-of-type(2){
+    
+}
+
+.works li img {}
+
+.works li h3 {
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    color: #454545;
+    text-transform: uppercase;
     font-weight: bold;
+    margin: 5px 0;
+}
+
+.works li p {
+    font-family: "Droid Serif";
+    font-size: 18px;
+    color: #454545;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.works a {
+    display: inline-block;
+    border: 1px solid #acd373;
+    color: #acd373;
+    font-family: "Droid Serif";
+    font-style: italic;
+    text-decoration: none;
+    margin-top: 45px;
+    padding: 10px 20px;
+}
+
+.links{
+    background-color: #ebebeb;
+    text-align: center;
+    height: ;
+    line-height: ;
+}
+
+.links li{
+    display:inline-block;
+    padding: 5px;
+}
+
+.testimonials{
+    background: url(photos/testimonial%20background.jpg);
+    text-align: center;
+}
+
+.aboutTestimonials{
+    display: inline-block;
+    text-align: left;
+    width: 33%;
+}
+
+.aboutTestimonials h2{
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-weight: ;
+    font-style: ;
+    margin: 5px;
+}
+
+.aboutTestimonials p{
+    font-family: "Droid Serif";
     font-size: 18px;
     color: #f7f7f7;
+    text-transform: ;
+    font-weight: ;
+    font-style: italic;
+    margin: 5px;
+}
+
+.aboutTestimonials a{
+    display: inline-block;
+    border: 1px solid #acd373;
+    color: #acd373;
+    font-family: "Droid Serif";
+    font-style: italic;
     text-decoration: none;
+    margin-top: 45px;
+    padding: 10px 20px;
+}
+
+.featuredTestimonial{
+    display: inline-block;
+    width: 33%;
+    text-align: left;
+    padding: ;
+}
+
+.featuredTestimonial quotebox{
+    display: block;
+    font-family: 'Droid Serif';
+    font-size: 16px;
+    color: #f7f7f7;
+}
+
+.featuredTestimonial img{
+    display: inline-block;
+}
+
+.featuredTestimonial div{
+    display: inline-block;
+}
+
+.featuredTestimonial div h3{
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    color: #acd373;
     text-transform: uppercase;
-    margin: 0 14px;
+    font-weight: bold;
+    font-style: ;
+    margin: 5px;
+}
+
+.featuredTestimonial div p{
+    font-family: "Droid Serif";
+    font-size: 18px;
+    color: #f7f7f7;
+    text-transform: ;
+    font-weight: ;
+    font-style: italic;
+    margin: 5px;
+}
+
+.testimonial img{
+    display: block;
+}
+
+.blog{
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.blog h2{
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+    color: #454545;
+    text-transform: uppercase;
+    font-weight: ;
+    font-style: ;
+    margin: px;
+}
+
+.blog p{
+    font-family: "Droid Serif";
+    font-size: 18px;
+    color: #454545;
+    text-transform: ;
+    font-weight: ;
+    font-style: italic;
+    margin: ;
+}
+
+.blog img{}
+
+.blog ul{}
+
+.blog li{
+    display: inline-block;
+    width: 24%;
+    background-color: #ebebeb;
+}
+
+.blog li img{}
+
+.greenCircle{
+    border-radius: 50%;
     background-color: #acd373;
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.greenCircle img{}
+
+.blog li h3{
+    font-family: "Droid Serif";
+    font-size: 18px;
+    color: #454545;
+    text-transform: ;
+    font-weight: ;
+    font-style: ;
+    margin: 0px;
+}
+
+.blog li a{
+    background-color: #acd373;
+    color: #f7f7f7;
+    font-size: 18px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.newsletter{
+    display: ;
+    background-color: #acd373;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+}
+
+.newsletter p{
+    display: inline-block;
+    font-family: "Source Sans Pro";
+    color: #f7f7f7;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+.newsletter input{
+    display: inline-block;
+    font-family: 'Droid Serif';
+    font-size: 14px;
+    font-style: italic;
+    border: 1px solid #f7f7f7;
+    padding: 10px;
+    background-color: #acd373;
+    color: #f7f7f7;
+}
+
+.newsletter img{
+    display: inline-block;
+    background-color: #f7f7f7;
+}
+
+.map{
+    background-image: url("photos/maps.jpg");
+    text-align: center;
+    height: 500px;
+    line-height: 500px;
+}
+
+.map img{
+    vertical-align: middle;
+}
+
+.contact{
+    vertical-align: middle;
+    background-color: #acd373;
+    text-align: center;
+}
+
+.contact h2{
+    font-family: 'Source Sans Pro';
+    font-size: 30px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+}
+
+.contact img{}
+
+.contactForm{
+    width: 570px;
+    text-align: left;
+}
+
+.contactForm p{
+    font-family: 'Source Sans Pro';
+    font-family: 18px;
+    color: #f7f7f7;
+}
+
+.contactForm input{
+    font-family: 'Droid Serif';
+    font-family: 15px;
+    color: #f7f7f7;
+    font-style: italic;
+    background-color: #9abd67;
+}
+
+.contactForm a{
+    display: block;
 }
