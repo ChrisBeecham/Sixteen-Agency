@@ -1,0 +1,67 @@
+@media all and (max-width:1000px){
+
+    nav{
+        background-color: red;
+    }
+    
+    nav a{
+        display: none;
+    }
+        /* a's are hidden
+        hamburger menu is in the a's place */
+
+    .header {}
+    /*    background image is cut off, not resized*/
+
+    .who {}
+    /*
+        phone image is on top
+        only one paragraph instead of two
+    */
+
+    .video {}
+    /*    appears the same*/
+
+    .services {}
+    /*    only three services, instead of six*/
+
+    .team {}
+    /*    only one featured team member, instead of four*/
+
+    .hiring {}
+    /*    appears the same as desktop */
+
+    .works {}
+    /*    only one featured work, instead of five*/
+
+    .links {}
+    /*
+        only 2, instead of 6
+        envatostudio & themeforest
+    */
+
+    .testimonials{}
+    /*
+        only 1 featured testimonial, instead of 2
+        .featuredTestimonial is above .aboutTestimonial
+    */
+
+    .blog{}
+    /*
+        same content as desktop
+        li's are arranged in 2x2 grid
+    */
+
+    .map{}
+    /*
+        map as grey overlaw
+        additional text - "See Map Details"
+    */
+
+    .contact{}
+    /*    same content*/
+
+    .footer{}
+    /*    a's are on top of p*/
+    
+}
