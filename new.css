@@ -3,316 +3,339 @@
     margin: 0 auto;
 } 
 
-.right {
-    float: right;
-}
+.right {float: right;}
 
 nav{
     background-color: #acd373;
     height: 106px;
     line-height: 106px;
-    box-shadow: 0 0 20\
-        px rgba(0,0,0,0.6);
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
 }
 
-    nav img{
-        vertical-align: middle;
-    }
+nav img{vertical-align: middle;}
 
-    nav a{
-        font-family:"Source Sans Pro";
-        font-weight: bold;
-        font-size: 18px;
-        color: #f7f7f7;
-        text-decoration: none;
-        text-transform: uppercase;
-        margin: 0 14px;
-    }
+nav a{
+    font-family:"Source Sans Pro";
+    font-weight: bold;
+    font-size: 18px;
+    color: #f7f7f7;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 14px;
+}
 
-    nav a:hover {
-        text-decoration: underline;
-    }
+nav a:hover {text-decoration: underline;}
 
 header{
     height: 700px;
     text-align: center;
     background-color: #9abd67;
     background-image: url("photos/skyline.png");
-    background-repeat: no-repeat;
     background-position: bottom center;
+    background-repeat: no-repeat;
 }
 
-    header h1{
-        font-family: "Source Sans Pro";
-        font-size: 48px;
-        font-weight: bold;
-        font-style: ;
-        color: #f7f7f7;
-        margin-top: ;
-        padding-top: 230px;
-    }
+header h1{
+    font-family: "Source Sans Pro";
+    font-size: 48px;
+    font-weight: bold;
+    color: #f7f7f7;
+    padding-top: 230px;
+}
 
-    header h2{
-        font-family: "Droid Serif";
-        font-size: 24px;
-        font-weight: ;
-        font-style: italic;
-        color: #f7f7f7;
-        margin-top: 30px;
-        padding-top: ;  
-    }
+header h2{
+    font-family: "Droid Serif";
+    font-size: 24px;
+    font-weight: ;
+    font-style: italic;
+    color: #f7f7f7;
+    margin-top: 30px;
+    padding-top: ;  
+}
 
-    header a{
-        display: block;
-        margin-top: 132px;
-    }
+header a{
+    display: block;
+    margin-top: 132px;
+}
 
 .who{
-    text-align: left;
+    text-align: center;
     background-color: #f7f7f7;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    }
+
+.who .container div{
+    text-align: left;
+}
+
+.who h2{
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+    color: #454545;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.who h2 img{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.who p{
     font-family: "Source Sans Pro";
     font-size: 18px;
     color: #454545;
-    padding: 90px 0;
 }
 
-    .who h2{
-        font-size: 30px;
-        text-transform: uppercase;
-        margin-bottom: 40px;
-    }
+.who a{
+    display: inline-block;
+    border: 1px solid #acd373;
+    font-family: "Droid Serif";
+    font-size: 18px;
+    color: #acd373;
+    font-style: italic;
+    text-decoration: none;
+    margin-top: 45px;
+    padding: 15px 20px;
+}
 
-    .who h2 img{
-        vertical-align: middle;
-        margin-right: 20px;
-    }
-
-    .who a{
-        display: inline-block;
-        border: 1px solid #acd373;
-        color: #acd373;
-        font-family: "Droid Serif";
-        font-style: italic;
-        text-decoration: none;
-        margin-top: 45px;
-        padding: 10px 20px;
-    }
-
-    .who .container div{
-        display: inline-block;
-        width: 769px;
-    }
+.who .container div{
+    display: inline-block;
+    width: 769px;
+}
 
 .video{
     display: ;
+    text-align: center;
     height: 523px;
     line-height: 523px;
     background-image: url(photos/people%20happy.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    text-align: center;
 }
 
-    .video img{
-        vertical-align: middle;
-    }
+.video img{vertical-align: middle;}
 
 .services{
-    display: ;
     background-color: #f7f7f7;
-    font-family: "Source Sans Pro";
-    font-size: 18px;
-    font-weight: ;
-    font-style: ;
     text-align: center;
-    color: #454545;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-    .services h2{
-        font-size: 30px;
-        font-family: 
-    }
+.services h2{
+    color: #454545;
+    font-size: 30px;
+    font-family: 'Source Sans Pro';
+    text-transform: uppercase;
+}
 
-    .services h2 span{
-        color: #acd373;
-        font-weight: bold;
-    }
+.services h2 span{color: #acd373;}
 
-    .services p{
-        font-family: "Droid Serif";
-    }
+.services .container > p{
+    color: #454545;
+    font-family: "Droid Serif";
+    font-size: 18px;
+    padding-top: 22px;
+}
 
-    .services a{
-            display: inline-block;
-            border: 1px solid #acd373;
-            color: #acd373;
-            font-family: "Droid Serif";
-            font-style: italic;
-            text-decoration: none;
-            margin-top: 45px;
-            padding: 10px 20px;
-    }
+.services img{padding-top: 20px;}
 
-    .servicesList{
-        display: inline-block;
-        text-align: left;
-    }
+.services ul{padding-top: 50px;}
 
-    .servicesList li{
-        display: inline-block;
-        width: 365px;
-    }
+.services li{
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
-    .servicesListItem {
-        display: inline-block;
-        width: 250px;
-    }
+.services-icon {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.services li:nth-of-type(1) .services-icon {background-image: url('photos/paintbrush.png');}
 
-    .servicesListItem h4{
-        font-weight: bold;
-        color: #acd373;
-    }
+.services li:nth-of-type(2) .services-icon {background-image: url('photos/mobile%20phone.png');}
+
+.services li:nth-of-type(3) .services-icon {background-image: url('photos/monitor.png');}
+
+.services li:nth-of-type(4) .services-icon {background-image: url('photos/chart.png');}
+
+.services li:nth-of-type(5) .services-icon {background-image: url('photos/controller.png');}
+
+.services li:nth-of-type(6) .services-icon {background-image: url('photos/heart.png');}
+
+.services-description{
+    text-align: left;
+    display:inline-block;
+    width: 300px;
+}
+
+.services-description h4{
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    font-weight: bold;
+    color: #acd373;
+}
+
+.services-description p{
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    color: #454545;
+    padding-top: 15px;
+}
+
+.services a{
+    display: inline-block;
+    border: 1px solid #acd373;
+    color: #acd373;
+    font-family: "Droid Serif";
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: none;
+    margin-top: 45px;
+    padding: 15px 20px;
+}
 
 .team{
-    display: ;
-    height: ;
     background-color: #acd373;
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.team h2{
+    font-family: "Source Sans Pro";
+    text-transform: uppercase;
+    font-size: 30px;
     color: #f7f7f7;
 }
 
-    .team h2{
-        font-family: "Source Sans Pro";
-        text-transform: uppercase;
-        font-size: 30px;
-        color: #f7f7f7;
-    }
+.team .container > p{
+    font-family: "Droid Serif";
+    font-size: 18px;
+    color: #f7f7f7;
+    font-weight: ;
+    font-style: italic;
+    padding-top: 22px;
+}
 
-    .team p{
-        font-family: "Droid Serif";
-        font-size: 18px;
-        color: #f7f7f7;
-        font-weight: ;
-        font-style: italic;
-    }
+.team img{padding-top: 20px;}
 
-    .team img{}
-    /*
-    sdafasdfasdfsd
-    */
+.team ul{padding-top:20px;}
 
-    .team li{
-        position: relative;
-        display: inline-block;
-        width: 250px;
-        height: 247px;
-        background-color: #f7f7f7;
-        border-radius: 3px;
-        margin: 70px 15px 0 15px;
-        text-align: center;
-    }
+.team li{
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 247px;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    margin: 70px 15px 0 15px;
+    text-align: center;
+}
 
-    .team li > img{
-        margin-top: -70px;
-    }
+.team li > img{margin-top: -70px;}
 
-    .team li h3 {
-        font-family: "Source Sans Pro";
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 20px;
-        color: #acd373;
-        margin-top: 15px;
-    }
+.team li h3 {
+    font-family: "Source Sans Pro";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #acd373;
+    margin-top: 15px;
+}
 
-    .team li p {
-        font-family: "DroidSerif";
-        font-style: italic;
-        font-size: 16px;
-        color: #787878;
-        margin-top: 9px;
-    }
+.team li p {
+    font-family: "DroidSerif";
+    font-style: italic;
+    font-size: 16px;
+    color: #787878;
+    margin-top: 9px;
+}
 
-    .socialMediaIcons {
-        position: absolute;
-        bottom: 0;
-        background: #ebebeb;
-        width: 100%;
-        height: 70px;
-        line-height: 70px;
-        border-bottom-right-radius: 3px;
-        border-bottom-left-radius: 3px;
-    }
+.socialMediaIcons {
+    position: absolute;
+    bottom: 0;
+    background: #ebebeb;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
 
-    .socialMediaIcons img {
-        vertical-align: middle;
-        margin: 0 4px;
-    }
+.socialMediaIcons img {
+    vertical-align: center;
+    margin: 0 4px;
+}
 
 .hiring{
-    display:;
     background-color: #9abd67;
     height: 110px;
     line-height: 110px;
     text-align: center;
 }
 
-    .hiring p{
-        font-family: "Source Sans Pro";
-        font-size: 18px;
-        color: #ebebeb;
-    }
+.hiring p{
+    display: inline-block;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    color: #ebebeb;
+}
 
-    .hiring a{
-        border: 1px solid #ebebeb;
-        color: #ebebeb;
-        font-family: "Droid Serif";
-        font-style: italic;
-        text-decoration: none;
-        padding: 10px 20px;
-        margin-left: 50px;
-    }
+/* button is messed up, too much padding on top & bottom */
+.hiring a{
+    display: inline-block;
+    border: 1px solid #ebebeb;
+    color: #ebebeb;
+    font-family: "Droid Serif";
+    font-size:  18px;
+    font-style: italic;
+    text-decoration: none;
+    padding: 0px 15px;
+    margin-left: 50px;
+}
 
+/* Our Recent Works */
 .works{
-    display: ;
     background-color: #f7f7f7;
-    height: ;
     text-align: center;
+    padding-top: 100px;
+    padding-bottom:70px;
 }
 
 .works h2{
     font-family: "Source Sans Pro";
     text-transform: uppercase;
-    font-weight: ;
     font-size: 30px;
     color: #454545;
-    margin-top: ;
 }
 
 .works h2 span{
     color: #acd373;
 }
 
-.works p{
+/* quotation marks need to be updated */
+.works .container > p{
     font-family: "Droid Serif";
     font-size: 18px;
     color: #454545;
-    margin: 5px 0;
+    padding-top: 22px;
 }
 
-.works img{ /* line break */
-    margin: 5px 0;
-}
+.works .container > img{padding-top: 20px;}
+
+.works ul{padding-top:20px;}
 
 .works li{
     display: inline-block;
     background-color: #ebebeb;
-    margin: 5px;
-}
-
-.works li:nth-of-type(1),
-.works li:nth-of-type(2){
-    
+    margin: 6px;
 }
 
 .works li img {}
@@ -323,7 +346,7 @@ header{
     color: #454545;
     text-transform: uppercase;
     font-weight: bold;
-    margin: 5px 0;
+    padding-top: 25px;
 }
 
 .works li p {
@@ -331,7 +354,8 @@ header{
     font-size: 18px;
     color: #454545;
     font-style: italic;
-    margin: 5px 0;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
 .works a {
@@ -339,28 +363,37 @@ header{
     border: 1px solid #acd373;
     color: #acd373;
     font-family: "Droid Serif";
+    font-size: 18px;
     font-style: italic;
     text-decoration: none;
     margin-top: 45px;
-    padding: 10px 20px;
+    padding: 15px 20px;
 }
 
+/* links section spills over when the screen gets too small */
 .links{
     background-color: #ebebeb;
     text-align: center;
-    height: ;
-    line-height: ;
+    height: 120px;
+    line-height: 120px;
 }
 
 .links li{
     display:inline-block;
-    padding: 5px;
+    padding: 0px 25px;
 }
 
+.links li img{
+    vertical-align: middle;
+}
+
+/* Testimonials */
 .testimonials{
     background: url(photos/testimonial%20background.jpg);
     background-repeat: no-repeat;
     text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .aboutTestimonials{
@@ -376,17 +409,15 @@ header{
     text-transform: uppercase;
     font-weight: ;
     font-style: ;
-    margin: 5px;
 }
 
 .aboutTestimonials p{
-    font-family: "Droid Serif";
+    font-family: "Source Sans Pro";
     font-size: 18px;
     color: #f7f7f7;
     text-transform: ;
     font-weight: ;
-    font-style: italic;
-    margin: 5px;
+    padding-top: 45px;
 }
 
 .aboutTestimonials a{
@@ -395,20 +426,24 @@ header{
     color: #acd373;
     font-family: "Droid Serif";
     font-style: italic;
+    font-size: 18px;
     text-decoration: none;
     margin-top: 45px;
-    padding: 10px 20px;
+    padding: 15px 20px;
 }
 
 .featuredTestimonial{
     display: inline-block;
-    width: 33%;
+    width: 371px;
     text-align: left;
     padding: ;
 }
 
-.featuredTestimonial quotebox{
+.quoteBox{
     display: block;
+    background-image: "photos/blockquotes.png";
+    background-repeat: no-repeat;
+    background-position: ;
     font-family: 'Droid Serif';
     font-size: 16px;
     color: #f7f7f7;
@@ -429,7 +464,6 @@ header{
     text-transform: uppercase;
     font-weight: bold;
     font-style: ;
-    margin: 5px;
 }
 
 .featuredTestimonial div p{
@@ -439,7 +473,6 @@ header{
     text-transform: ;
     font-weight: ;
     font-style: italic;
-    margin: 5px;
 }
 
 .testimonial img{
@@ -449,6 +482,8 @@ header{
 .blog{
     background-color: #f7f7f7;
     text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .blog h2{
@@ -468,16 +503,21 @@ header{
     text-transform: ;
     font-weight: ;
     font-style: italic;
-    margin: ;
+    padding-top: 22px;
 }
 
-.blog img{}
+.blog .container > img{padding-top:20px;}
 
-.blog ul{}
+.blog ul{
+    padding-top:20px;
+}
 
 .blog li{
+    position: relative;
+    text-align: center;
     display: inline-block;
-    width: 24%;
+    height: 335px;
+    width: 270px;
     background-color: #ebebeb;
 }
 
@@ -486,9 +526,16 @@ header{
 .greenCircle{
     border-radius: 50%;
     background-color: #acd373;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin-top: -25px;
 }
 
-.greenCircle img{}
+.greenCircle img{
+    vertical-align: middle;
+    
+}
 
 .blog li h3{
     font-family: "Droid Serif";
@@ -501,9 +548,13 @@ header{
 }
 
 .blog li a{
+    position: absolute;
+    bottom: 0;
     background-color: #acd373;
     color: #f7f7f7;
     font-size: 18px;
+    font-style: italic;
+    padding: 15px 0px;
     width: 100%;
     text-decoration: none;
 }
@@ -555,6 +606,8 @@ header{
     vertical-align: middle;
     background-color: #acd373;
     text-align: center;
+    padding-top: 90px;
+    padding-bottom: 80px;
 }
 
 .contact h2{
@@ -564,7 +617,7 @@ header{
     text-transform: uppercase;
 }
 
-.contact img{}
+.contact img{padding-top:20px;}
 
 .contactForm{
     width: 570px;
@@ -575,6 +628,7 @@ header{
     font-family: 'Source Sans Pro';
     font-family: 18px;
     color: #f7f7f7;
+    padding-top: 40px;
 }
 
 .contactForm input{
@@ -583,16 +637,45 @@ header{
     color: #f7f7f7;
     font-style: italic;
     background-color: #9abd67;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    margin-top: 15px;
 }
 
 .contactForm a{
-    display: block;
+    display: inline-block;
+    background-color: #9abd67;
+    color: #f7f7f7;
+    font-family: "Droid Serif";
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: none;
+    margin-top: 45px;
+    padding: 15px 20px;
 }
 
-.footer{}
+footer{
+    background-color: #9abd67;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
-.footer p {}
+footer p {
+    font-family:'Source Sans Pro';
+    font-size: 18px;
+    color: #f7f7f7;
+}
 
-.footer li {
+footer ul{}
+
+footer li {
     display: inline-block;
+    vertical-align: middle;
+}
+
+foooter li a
+
+footer li img {
+    vertical-align: middle;
 }

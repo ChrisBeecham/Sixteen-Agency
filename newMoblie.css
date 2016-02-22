@@ -1,50 +1,92 @@
-@media all and (max-width:1000px){
+@media all and (max-width:500px){
 
-    nav{
-        background-color: red;
-    }
+    nav{}
     
-    nav a{
-        display: none;
-    }
-        /* a's are hidden
-        hamburger menu is in the a's place */
+    nav .right{display: none;}
+    /* 
+    -a's are hidden
+    -hamburger menu is in the a's place 
+    */
 
-    .header {}
-    /*    background image is cut off, not resized*/
+    header {}
+    /*    
+    -need h1, h2, a to be centered
+    - add space below the 'a'
+    -background image is cut off, not resized
+    */
 
     .who {}
     /*
-        phone image is on top
-        only one paragraph instead of two
+    -phone is on top of h2
+    x-part of p is hidden
     */
+    
+    .who span{display: none;}
 
     .video {}
-    /*    appears the same*/
+    /* 
+    -need image to resize to smaller dimensions
+    -need play button to be centered
+    */
 
     .services {}
-    /*    only three services, instead of six*/
-
+    /*    
+    x- li 4-6 are hidden
+    - make li centered
+    */
+    
+    .services li{
+        display:block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .services li:nth-of-type(4){display: none;}
+    .services li:nth-of-type(5){display: none;}
+    .services li:nth-of-type(6){display: none;}
+    
     .team {}
-    /*    only one featured team member, instead of four*/
+    /*    
+    -li 2-4 are hidden
+    */
+    
+    .team li:nth-of-type(2){display: none;}
+    .team li:nth-of-type(3){display: none;} 
+    .team li:nth-of-type(4){display: none;}
 
     .hiring {}
     /*    appears the same as desktop */
 
     .works {}
-    /*    only one featured work, instead of five*/
+    /*    
+    x-li 1,2,4,5 are hidden
+    -
+    */
+    
+    .works li:nth-of-type(1) {display: none;}
+    .works li:nth-of-type(2) {display: none;}
+    .works li:nth-of-type(4) {display: none;}
+    .works li:nth-of-type(5) {display: none;}
 
     .links {}
     /*
-        only 2, instead of 6
-        envatostudio & themeforest
+   -li 3-6 are display: none;
     */
+    
+    .links li:nth-of-type(3) {display:none;}
+    .links li:nth-of-type(4) {display:none;}
+    .links li:nth-of-type(5) {display:none;}
+    .links li:nth-of-type(6) {display:none;}
 
     .testimonials{}
     /*
-        only 1 featured testimonial, instead of 2
-        .featuredTestimonial is above .aboutTestimonial
+    -.featuredTestimonial is above .aboutTestimonial
+    - featuredTestimonial 2 is hidden
     */
+    
+    .featuredTestimonial:nth-of-type(2){
+        display: none;
+    }
 
     .blog{}
     /*
