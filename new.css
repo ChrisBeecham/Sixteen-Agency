@@ -1,19 +1,19 @@
+
+/* ---- General ---- */
 .container {
     width: 1170px;
-    margin: 0 auto;
 } 
 
 .right {float: right;}
 
+/* ---- Navigation Bar ---- */
 nav{
     background-color: #acd373;
     height: 106px;
     line-height: 106px;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
 }
-
 nav img{vertical-align: middle;}
-
 nav a{
     font-family:"Source Sans Pro";
     font-weight: bold;
@@ -23,26 +23,24 @@ nav a{
     text-transform: uppercase;
     margin: 0 14px;
 }
-
 nav a:hover {text-decoration: underline;}
 
+/* ---- Header Bar ---- */
 header{
-    height: 700px;
     text-align: center;
     background-color: #9abd67;
     background-image: url("photos/skyline.png");
     background-position: bottom center;
     background-repeat: no-repeat;
+    padding-top: 230px;
+    padding-bottom: 216px;
 }
-
 header h1{
     font-family: "Source Sans Pro";
     font-size: 48px;
     font-weight: bold;
     color: #f7f7f7;
-    padding-top: 230px;
 }
-
 header h2{
     font-family: "Droid Serif";
     font-size: 24px;
@@ -52,23 +50,21 @@ header h2{
     margin-top: 30px;
     padding-top: ;  
 }
-
 header a{
     display: block;
     margin-top: 132px;
 }
 
+/* ---- Who We Are Section ---- */
 .who{
     text-align: center;
     background-color: #f7f7f7;
     padding-top: 90px;
     padding-bottom: 90px;
     }
-
 .who .container div{
     text-align: left;
 }
-
 .who h2{
     font-family: "Source Sans Pro";
     font-size: 30px;
@@ -76,18 +72,15 @@ header a{
     text-transform: uppercase;
     margin-bottom: 40px;
 }
-
 .who h2 img{
     vertical-align: middle;
     margin-right: 20px;
 }
-
 .who p{
     font-family: "Source Sans Pro";
     font-size: 18px;
     color: #454545;
 }
-
 .who a{
     display: inline-block;
     border: 1px solid #acd373;
@@ -99,12 +92,12 @@ header a{
     margin-top: 45px;
     padding: 15px 20px;
 }
-
 .who .container div{
     display: inline-block;
     width: 769px;
 }
 
+/* ---- Video ---- */
 .video{
     display: ;
     text-align: center;
@@ -291,6 +284,7 @@ header a{
 /* button is messed up, too much padding on top & bottom */
 .hiring a{
     display: inline-block;
+    line-height: normal;
     border: 1px solid #ebebeb;
     color: #ebebeb;
     font-family: "Droid Serif";
@@ -519,20 +513,21 @@ header a{
     height: 335px;
     width: 270px;
     background-color: #ebebeb;
+    vertical-align: top;
 }
 
 .blog li img{}
 
-.greenCircle{
+.greendiv{
     border-radius: 50%;
     background-color: #acd373;
     height: 50px;
     width: 50px;
     line-height: 50px;
-    margin-top: -25px;
+    margin: -25px auto 0 auto;
 }
 
-.greenCircle img{
+.greendiv img{
     vertical-align: middle;
     
 }
@@ -550,6 +545,7 @@ header a{
 .blog li a{
     position: absolute;
     bottom: 0;
+    left: 0;
     background-color: #acd373;
     color: #f7f7f7;
     font-size: 18px;

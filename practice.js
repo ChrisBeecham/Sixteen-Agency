@@ -1,1 +1,1 @@
-alert("You Are about to look at an awesome freaking website");
+alert("You Are about to look at an awesome freaking websit");

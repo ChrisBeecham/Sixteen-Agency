@@ -1,109 +1,141 @@
-@media all and (max-width:500px){
+@media all and (max-width:375px){
 
-    nav{}
+/* ---- General ---- */
+.container{
+    width:86%;
+    margin: 0 auto;
+}
+
+.right {}
+
+/* ---- Navigation Bar ---- 
+-a's are hidden
+-hamburger menu is in the a's place 
+*/
+nav{
+    height: 40px;
+    line-height: 40px;
+}
+nav a {margin:0px;}
+nav a img {width:70px;}
+nav .right{display: none;}
+
     
-    nav .right{display: none;}
-    /* 
-    -a's are hidden
-    -hamburger menu is in the a's place 
-    */
-
-    header {}
-    /*    
-    -need h1, h2, a to be centered
-    - add space below the 'a'
-    -background image is cut off, not resized
-    */
-
-    .who {}
-    /*
-    -phone is on top of h2
-    x-part of p is hidden
-    */
-    
-    .who span{display: none;}
-
-    .video {}
-    /* 
-    -need image to resize to smaller dimensions
-    -need play button to be centered
-    */
-
-    .services {}
-    /*    
-    x- li 4-6 are hidden
-    - make li centered
-    */
-    
-    .services li{
-        display:block;
-        padding-top: 20px;
-        padding-bottom: 20px;
+/* ---- Header Bar ---- 
+-need h1, h2, a to be centered
+-add space below the 'a'
+-background image is cut off, not resized 
+*/
+header {
+    padding-top: 125px;
+    padding-bottom: 48x;
     }
-    
-    .services li:nth-of-type(4){display: none;}
-    .services li:nth-of-type(5){display: none;}
-    .services li:nth-of-type(6){display: none;}
-    
-    .team {}
-    /*    
-    -li 2-4 are hidden
-    */
-    
-    .team li:nth-of-type(2){display: none;}
-    .team li:nth-of-type(3){display: none;} 
-    .team li:nth-of-type(4){display: none;}
+header h1{
+    font-size: 18px;
+    padding-top:;
+    }
+header h2{font-size: 13px;}
+header a{margin-top:56px;}
+header a img {width:25px;}
 
-    .hiring {}
-    /*    appears the same as desktop */
-
-    .works {}
-    /*    
-    x-li 1,2,4,5 are hidden
-    -
-    */
-    
-    .works li:nth-of-type(1) {display: none;}
-    .works li:nth-of-type(2) {display: none;}
-    .works li:nth-of-type(4) {display: none;}
-    .works li:nth-of-type(5) {display: none;}
-
-    .links {}
-    /*
-   -li 3-6 are display: none;
-    */
-    
-    .links li:nth-of-type(3) {display:none;}
-    .links li:nth-of-type(4) {display:none;}
-    .links li:nth-of-type(5) {display:none;}
-    .links li:nth-of-type(6) {display:none;}
-
-    .testimonials{}
-    /*
-    -.featuredTestimonial is above .aboutTestimonial
-    - featuredTestimonial 2 is hidden
-    */
-    
-    .featuredTestimonial:nth-of-type(2){
-        display: none;
+/* ---- Who We Are Section ---- 
+-phone is on top of h2
+x-part of p is hidden
+*/
+.who {
+    padding-bottom: 48px;
+    }
+.who h2 {font-size: 18px;}
+.who h2 img {width: 25px;}
+.who p {font-size:13px;}
+.who p span{display: none;}
+.who a{
+    font-size: 11px;
+    margin-top: 45px;
+    padding: 10px 15px;
     }
 
-    .blog{}
-    /*
-        same content as desktop
-        li's are arranged in 2x2 grid
-    */
+.video {}
+/* 
+-need image to resize to smaller dimensions
+-need play button to be centered
+*/
 
-    .map{}
-    /*
-        map as grey overlaw
-        additional text - "See Map Details"
-    */
+.services {}
+/*    
+x- li 4-6 are hidden
+- make li centered
+*/
 
-    .contact{}
-    /*    same content*/
+.services li{
+display:block;
+padding-top: 20px;
+padding-bottom: 20px;
+}
 
-    .footer{}
-    /*    a's are on top of p*/
-    
+.services li:nth-of-type(4){display: none;}
+.services li:nth-of-type(5){display: none;}
+.services li:nth-of-type(6){display: none;}
+
+.team {}
+/*    
+-li 2-4 are hidden
+*/
+
+.team li:nth-of-type(2){display: none;}
+.team li:nth-of-type(3){display: none;} 
+.team li:nth-of-type(4){display: none;}
+
+.hiring {}
+/*    appears the same as desktop */
+
+.works {}
+/*    
+x-li 1,2,4,5 are hidden
+-
+*/
+
+.works li:nth-of-type(1) {display: none;}
+.works li:nth-of-type(2) {display: none;}
+.works li:nth-of-type(4) {display: none;}
+.works li:nth-of-type(5) {display: none;}
+
+.links {}
+/*
+-li 3-6 are display: none;
+*/
+
+.links li:nth-of-type(3) {display:none;}
+.links li:nth-of-type(4) {display:none;}
+.links li:nth-of-type(5) {display:none;}
+.links li:nth-of-type(6) {display:none;}
+
+.testimonials{}
+/*
+-.featuredTestimonial is above .aboutTestimonial
+- featuredTestimonial 2 is hidden
+*/
+
+.featuredTestimonial:nth-of-type(2){
+display: none;
+}
+
+.blog{}
+/*
+same content as desktop
+li's are arranged in 2x2 grid
+*/
+
+.map{}
+/*
+map as grey overlaw
+additional text - "See Map Details"
+*/
+
+.contact{}
+/*    same content*/
+
+.footer{}
+/*    a's are on top of p*/
+
 }
